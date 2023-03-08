@@ -9,7 +9,7 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 import { increaseCount, resetCount } from '../redux/countSlice';
 
-export default function App() {
+export default function HomeScreen() {
 	const dispatch = useDispatch();
 	const count = useSelector((state) => state.count.count);
 
